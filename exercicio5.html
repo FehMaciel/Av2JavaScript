@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <script>
+        let cliente = prompt("Digite o Nome do Cliente:");
+        let hot = prompt("Hot Dog R$1,00 Quantos Vai querer:");
+        let hambur = prompt("Hamburguer R$1,30 Quantos Vai querer:");
+        let cheese = prompt("Cheeseburguer R$1,50 Quantos Vai querer:");
+        let refriLata = prompt("Refrigerante Lata R$1,00 Quantos Vai querer:");
+        let batata = prompt("Bata Frita R$0,80 Quantas Vai querer:");
+        
+        
+
+        let total = (Number(hot)*1.00) + (Number(hambur)*1.30) + (Number(cheese)*1.50) + (Number(refriLata)*1.00) + (Number(batata)*0.80)
+
+        window.document.write("Cliente: " + cliente + "<br>");
+        window.document.write("Total da Compra: " + total );
+
+    </script>
+</body>
+</html>
